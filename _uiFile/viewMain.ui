@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1300</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1300</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="m_btn_closet">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>40</y>
+     <width>150</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(25, 36, 106);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>옷장</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_reco">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>590</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+border:0px;
+background-color: rgb(26, 37, 107);</string>
+   </property>
+   <property name="text">
+    <string>추천</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_la_year">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>110</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 25 20pt &quot;나눔바른고딕 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_la_day">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>190</y>
+     <width>471</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 25 20pt &quot;나눔바른고딕 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_la_state">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>741</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 25 15pt &quot;나눔바른고딕 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_la_tem">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>440</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 25 20pt &quot;나눔바른고딕 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_seoul">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(45, 63, 185);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>서울</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_busan">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+selection-background-color: rgb(44, 56, 97);
+color: rgb(255, 255, 255);
+background-color: rgb(45, 63, 185);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>부산</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_dejun">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>340</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(45, 63, 185);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>대전</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_jeju">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>480</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(45, 63, 185);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>제주</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_btn_ham">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>620</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25 15pt &quot;나눔바른고딕 Light&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(45, 63, 185);
+border:0px;</string>
+   </property>
+   <property name="text">
+    <string>함양</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_la_area">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>440</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 25 20pt &quot;나눔바른고딕 Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
